@@ -68,7 +68,7 @@ nav a {
 
 }
 
-.column-width40 img {
+.logo img {
 
     width: 35vw;
     border-radius: 10px;
@@ -172,4 +172,32 @@ nav a {
     background-color: #727272;
     font-size: 5vh;
 }
+
+.contact-info {
+
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #7c7c7c;
+    color: whitesmoke;
+    padding-top: 5vh;
+    
+}
+
+.contact-info p {
+
+    font-size: 21px;
+
+}
+
+.contact-links {
+
+    text-decoration: none;
+    color: #C00808;
+}
+
+
+
 
