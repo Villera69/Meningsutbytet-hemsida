@@ -95,29 +95,81 @@ nav a {
 .kemi {
 
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    padding-top: 10vh;
+    align-items: center;
+    background-color: #727272;
+    padding-bottom: 2.5vh;
 
 }
 
 .kemi div img {
 
-    max-width: 300px;
+    width: 300px;
+
 }
 
 .kemi p {
 
     font-size: 21px;
+    max-width: 30vw;
+    text-align: center;
+    color: whitesmoke;
 }
 
 .biologi {
 
     display: flex;
-
+    justify-content: space-around;
+    padding-top: 2.5vh;
+    align-items: center;
+    background-color: #7c7c7c;
+    padding-bottom: 2.5vh;
 }
+
+.biologi div img {
+
+    width: 300px;
+}
+
+.biologi p {
+
+    font-size: 21px;
+    max-width: 30vw;
+    text-align: center;
+    color: whitesmoke;
+}
+
 
 .fysik {
 
     display: flex;
+    justify-content: space-around;
+    padding-top: 2.5vh;
+    align-items: center;
+    background-color: #727272;
+    padding-bottom: 2.5vh;
+}
 
+.fysik div img {
+
+    width:  300px;
+
+}
+
+.fysik p {
+
+    font-size: 21px;
+    max-width: 30vw;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.rubrik {
+
+    text-align: center;
+    padding-top: 5vh;
+    background-color: #727272;
+    font-size: 5vh;
 }
 
