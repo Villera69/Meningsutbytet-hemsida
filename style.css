@@ -16,7 +16,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 10vh;
+    height: 10vh;
     padding: 0px 20px;
     border-bottom: solid black;
     border-top: solid black;
@@ -178,15 +178,18 @@ nav a {
     width: 40vw;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     background-color: #7c7c7c;
     color: whitesmoke;
     padding-top: 5vh;
+    height: 90vh;
+    justify-content: space-around;
+    
+
     
 }
 
-.contact-info p {
+.contact-links-family{
 
     font-size: 21px;
 
@@ -196,6 +199,11 @@ nav a {
 
     text-decoration: none;
     color: #C00808;
+}
+
+.contact-form {
+
+    
 }
 
 
