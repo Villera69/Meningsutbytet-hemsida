@@ -179,7 +179,7 @@ nav a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #7c7c7c;
+    background-color: #D45819;
     color: whitesmoke;
     padding-top: 5vh;
     height: 90vh;
@@ -201,11 +201,41 @@ nav a {
     color: #C00808;
 }
 
-.contact-form {
+form {
 
+    display: flex;
+    width: 60vw;
+    background-color: #85132A;
+    flex-direction: column;
+    padding: 60px;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-around;
+
+
+}
+
+
+fieldset {
+
+    display: flex;
+    padding: 10px;
+
+
+
+}
+
+legend {
+    
+    color: #020202;
+    background-color: white;
     
 }
 
+fieldset {
+
+
+}
 
 
 
