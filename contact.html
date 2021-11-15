@@ -19,50 +19,201 @@
     <section class="two-column-container">
         <div class="form">
             <form>
-                <fieldset class="">
+
+
+                <fieldset class="Competence" aria-required="true">
                     <legend>
-                        Kontaktformulär
+                        1. Vilken typ av kompetens söker du?
                     </legend>
                     
-                    <label for="Username" >Username:</label>
-                    <input type="text" id="Username" name="" required>
-    
-                    <label for="Password">Password:</label>
-                    <input type="Password" name="Password" id="Password" >
-                    
-                    
+                    <div class="FormRadio">
+
+                        <label for="Projekledare">Projektledare</label>
+                        <input type="checkbox" name="Competence" id="Projektledare" >
+                    </div>
+
+                    <div class="FormRadio">
+
+                        <label for="Redaktör">Redaktör</label>
+                        <input type="checkbox" name="Competence" id="Redaktör" >
+                    </div>
+
+                    <div class="FormRadio">
+
+                        <label for="Författare">Författare</label>
+                        <input type="checkbox" name="Competence" id="Författare" >
+                    </div>
+
+                    <div class="FormRadio">
+
+                        <label for="Föreläsare">Föreläsare</label>
+                        <input type="checkbox" name="Competence" id="Föreläsare" >
+                    </div>
 
                 </fieldset>
 
-                <fieldset class="">
+                <fieldset class="subject">
                     <legend>
-                        Vilken typ av kompetens söker du?
+                        2. Inom vilket ämne?
                     </legend>
                     
-                    <label for="Projekledare">Projektledare</label>
-                    <input type="radio" name="Competence" id="Projektledare" required>
-                    
-                    <label for="Redaktör">Redaktör</label>
-                    <input type="radio" name="Competence" id="Redaktör" required>
-                    
-                    <label for="Författare">Författare</label>
-                    <input type="radio" name="Competence" id="Författare" required>
+                    <div class="FormRadio">
 
-                    <label for="Föreläsare">Föreläsare</label>
-                    <input type="radio" name="Competence" id="Föreläsare" required>
+                        <label for="Matematik">Matematik</label>
+                        <input type="checkbox" name="subject" id="Matematik" >
+                    </div>
 
-                </fieldset>
+                    <div class="FormRadio">
 
-                <fieldset class="">
-                    <legend>
-                        Vilken typ av kompetens söker du?
-                    </legend>
+                        <label for="Naturvetenskap">Naturvetenskap</label>
+                        <input type="checkbox" name="subject" id="Naturvetenskap" >
+                    </div>
                     
-                    <label for="Projekledare">Projektledare</label>
-                    <input type="radio" name="Competence" id="Projektledare" required>
+                    <div class="FormRadio">
+
+                        <label for="Annat">Annat</label>
+                        <input type="checkbox" name="subject" id="Annat" >
+                    </div>
+
+                    <div class="FormRadio">
+
+                        <label for="Om annat">Om annat,vilket?</label>
+                    </div>
                     
+                    <div class="FormRadio">
+
+                        <input type="text" name="subject" id="Om annat" >
+                    </div>
                    
                 </fieldset>
+
+
+                <fieldset class="">
+                    <legend>
+                        3. Vilken är målgruppen?
+                    </legend>
+                    <div class="FormRadio">
+                        <label for="Lågstadiet">Lågstadiet</label>
+                        <input type="checkbox" name="målgrupp" id="Lågstadiet" >
+                    </div>
+
+                    <div class="FormRadio">
+
+                        <label for="Mellanstadiet">Mellanstadiet</label>
+                        <input type="checkbox" name="målgrupp" id="Mellanstadiet" >
+                    </div>
+                    
+                    <div class="FormRadio">
+
+                        <label for="Högstadiet">Högstadiet</label>
+                        <input type="checkbox" name="målgrupp" id="Högstadiet" >
+                    </div>
+                        
+                    <div class="FormRadio">
+
+                        <label for="Gymnasiet">Gymnasiet</label>
+                        <input type="checkbox" name="målgrupp" id="Gymnasiet" >
+                    </div>
+                        
+                    <div class="FormRadio">
+                        
+                        <label for="Lärare">Lärare</label>
+                        <input type="checkbox" name="målgrupp" id="Lärare" >
+                    </div>
+                        
+                    <div class="FormRadio">
+
+                        <label for="Annan">Annan</label>
+                        <input type="checkbox" name="målgrupp" id="Annan" >
+                    </div>
+                        
+                    
+                        <div class="FormRadio">
+
+                            <label for="Om annan">Om annan, vilken?</label>
+                        </div>
+
+                        <div class="FormRadio">
+
+                            <input type="text" name="målgrupp" id="Om annan" >
+                        </div>
+                            
+
+                   
+                </fieldset>
+
+                <fieldset class="months">
+                    <legend>
+                        4. Mellan vilka månader sträcker sig uppdraget?
+                    </legend>
+                    
+
+                   <div class="FormRadio">
+
+                       <input type="text" name="months" id="months" >
+                    </div>
+                       
+                   
+                </fieldset>
+
+                
+                <fieldset class="hours">
+                    <legend>
+                        5. Ungefär hur många timmar omfattar uppdraget?
+                    </legend>
+                    
+
+                   <div class="FormRadio">
+
+                       <input type="text" name="hours" id="hours" >
+                    </div>
+                       
+                   
+                </fieldset>
+
+                <fieldset class="miscelaneous">
+                    <legend>
+                        6. Övrig information du vill dela med dig av
+                    </legend>
+
+                   <div class="FormRadio">
+
+                       <input type="text" name="miscelaneous" id="miscelaneous" >
+                    </div>
+                       
+                   
+                </fieldset>
+
+                <fieldset class="contact-info-user">
+                    <legend>
+                        7. Dina kontaktuppgifter
+                    </legend>
+
+                   <div class="FormRadio">
+                        <label for="userName">Namn</label>
+                       <input type="text" name="contact-info-user" id="userName" >
+                    </div>
+
+                    <div class="FormRadio">
+                        <label for="userMail">Mailadress</label>
+                       <input type="email" name="contact-info-user" id="userMail" >
+                    </div>
+
+                    <div class="FormRadio">
+                        <label for="userTel">Telefonnummer</label>
+                       <input type="tel" name="contact-info-user" id="userTel" >
+                    </div>
+
+                    
+                       
+                   
+                </fieldset>
+
+                <fieldset class="send">
+
+                    <input type="submit" name="send" id="send" class="submit">
+                </fieldset>
+
 
     
             </form>    
@@ -77,22 +228,26 @@
             <div class="contact-links-family">
 
                 <p>
-                    Mailadress:
+                    MAILADRESS:
                     <a href="mailto:sara@meningsutbytet.se" class="contact-links">sara@meningsutbytet.se </a>
                 </p>
                 
                 
                 
                 <p>
-                    Telefonnummer:
+                    TELEFONNUMMER:
                     <a href="tel:+46707591862" class="contact-links">0707591862</a>
                 </p>
                 
                 
                 <p>
-                    Kontorsadress: 
+                    KONTORSADRESS: 
                     <a href="https://www.google.se/maps/place/L%C3%A5ngsj%C3%B6v%C3%A4gen+138,+125+52+%C3%84lvsj%C3%B6/@59.2671642,17.9736563,17z/data=!3m1!4b1!4m5!3m4!1s0x465f772036acb403:0x8957203555171f67!8m2!3d59.2671642!4d17.975845"class="contact-links" target="_blank">Långsjövägen 138A</a>
                     
+                </p>
+
+                <p>
+                    POSTNUMMER: 12552 Älvsjö
                 </p>
                 
             </div>

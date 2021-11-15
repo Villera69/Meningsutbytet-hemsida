@@ -18,14 +18,14 @@ header {
     justify-content: center;
     height: 10vh;
     padding: 0px 20px;
-    border-bottom: solid black;
-    border-top: solid black;
+
+
 }
 
 nav {
 
     display: flex;
-    gap: 150px;
+    gap: 10vw;
 
 }
 
@@ -192,6 +192,11 @@ nav a {
 .contact-links-family{
 
     font-size: 21px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: column;
+    
 
 }
 
@@ -207,29 +212,51 @@ form {
     width: 60vw;
     background-color: #85132A;
     flex-direction: column;
-    padding: 60px;
     height: 90vh;
-    align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 
 
 }
 
 
+
+
 fieldset {
 
     display: flex;
-    padding: 10px;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    color: whitesmoke;
+    background-color: black;
+    border-radius: 7.5px;
+    margin: 1vw;
 
+}
 
+.FormRadio {
 
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+
+    
 }
 
 legend {
     
     color: #020202;
     background-color: white;
+    padding: 5px;
+    border-radius: 5px;
     
+}
+
+.submit {
+
+    border-radius: 5px;
 }
 
 fieldset {
