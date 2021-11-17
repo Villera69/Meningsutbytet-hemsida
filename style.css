@@ -17,7 +17,6 @@ header {
     align-items: center;
     justify-content: center;
     height: 10vh;
-    padding: 0px 20px;
 
 
 }
@@ -25,7 +24,8 @@ header {
 nav {
 
     display: flex;
-    gap: 10vw;
+    gap: 5vw;
+    
 
 }
 
@@ -33,7 +33,7 @@ nav a {
 
     text-decoration: none;
     color: #C00808;
-    font-size: 30px;  
+    font-size: 4vh;  
 
 
 }
@@ -41,8 +41,6 @@ nav a {
 .two-column-container{
 
     display: flex;
-    justify-content: space-between;
-
 }
 
 
@@ -56,14 +54,14 @@ nav a {
     background-color: #85132A;
     height: 90vh;
 
-
 }
 
 .column-width60 p {
 
     max-width: 45vw;
-    font-size: 21px;
+    font-size: 1.25vw;
     color: whitesmoke;
+    text-align: center;
 
 
 }
@@ -71,7 +69,7 @@ nav a {
 .logo img {
     
     width: 35vw;
-    border-radius: 10px;
+    border-radius: 1vw;
     
     
 }
@@ -79,7 +77,7 @@ nav a {
 .Portrait img {
 
     border-radius: 10%;
-    max-width: 300px;
+    max-width: 20vw;
 }
 
 .column-width60 {
@@ -88,15 +86,13 @@ nav a {
     width: 60vw;
     background-color: #455A69;
     flex-direction: column;
-    padding: 60px;
+    justify-content: center;
     height: 90vh;
     align-items: center;
+    gap: 5vh;
+
 }
 
-.column-width60 img {
-    width: 300px;
-    margin-bottom: 10vh;
-}
 
 
 .rubrikP {
@@ -126,7 +122,7 @@ nav a {
     padding-top: 5vh;
     padding-bottom: 5vh;
     font-size: 5vh;
-    background-color: #D45819;
+    background-color: #ec6521;
     
 }
 
@@ -155,10 +151,11 @@ nav a {
 
 }
 
-.produkt div img {
+a img {
 
-    width: 150px;
+   width:  150px;
 }
+
 
 .produktBiologi {
 
@@ -179,6 +176,16 @@ nav a {
     padding-bottom: 2.5vh;
     background-color: #9c1530;
 
+}
+
+.produktOrange {
+
+    display: flex;
+    justify-content: space-around;
+    padding-top: 2.5vh;
+    align-items: center;
+    padding-bottom: 2.5vh;
+    background-color: #ec6521;
 }
 
 
@@ -208,9 +215,9 @@ nav a {
 
 .contact-links-family{
 
-    font-size: 21px;
+    font-size: 1.5vw;
     display: flex;
-    gap: 2vh;
+    gap: 3vh;
     flex-direction: column;
 
     
@@ -226,11 +233,11 @@ nav a {
 .contact-links {
 
     color: #50697a;
-    font-size: 21px;
+    font-size: 1.5vw;
     text-decoration: none;
 }
 
-form {
+.form {
 
     display: flex;
     width: 60vw;
@@ -244,6 +251,23 @@ form {
 
 }
 
+form {
+
+    display: flex;
+    background-color: #D45819;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    height: 90vh;
+    width: 60vw;
+
+
+}
+
+
+
+
 
 
 
@@ -255,7 +279,7 @@ fieldset {
     text-align: center;
     color: whitesmoke;
     background-color: black;
-    border-radius: 7.5px;
+    border-radius: 0.5vw;
     margin: 1vw;
 
 }
@@ -264,7 +288,7 @@ fieldset {
 
     display: flex;
     justify-content: space-between;
-    padding: 5px;
+    padding: 0.69vh;
 
     
 }
@@ -273,14 +297,14 @@ legend {
     
     color: #020202;
     background-color: white;
-    padding: 5px;
-    border-radius: 5px;
+    padding: 0.25vh;
+    border-radius: 1vw;
     
 }
 
 .submit {
 
-    border-radius: 5px;
+    border-radius: 1vw;
 }
 
 
