@@ -97,9 +97,10 @@ nav a {
 
 .rubrikP {
     
-    text-align: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
     font-size: 5vh;
     background-color: #50697a;
     
@@ -108,9 +109,10 @@ nav a {
 
 .rubrikR {
     
-    text-align: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
     font-size: 5vh;
     background-color: #9c1530;
     
@@ -118,9 +120,10 @@ nav a {
 
 .rubrikF {
     
-    text-align: center;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 15vh;
     font-size: 5vh;
     background-color: #ec6521;
     
@@ -141,19 +144,28 @@ nav a {
     background-color: #D45819;
 }
 
+a img {
+
+   width: 150px;
+
+}
+
+a img:hover {
+
+width: 200px;
+
+
+}
+
+
+
 .produkt {
 
     display: flex;
     justify-content: space-around;
-    padding-top: 2.5vh;
     align-items: center;
-    padding-bottom: 2.5vh;
+    height: 30vh;
 
-}
-
-a img {
-
-   width:  150px;
 }
 
 
@@ -161,9 +173,8 @@ a img {
 
     display: flex;
     justify-content: space-around;
-    padding-top: 2.5vh;
     align-items: center;
-    padding-bottom: 2.5vh;
+    height: 30vh;
     background-color: #50697a;
 }
 
@@ -171,9 +182,8 @@ a img {
 
     display: flex;
     justify-content: space-around;
-    padding-top: 2.5vh;
     align-items: center;
-    padding-bottom: 2.5vh;
+    height: 30vh;
     background-color: #9c1530;
 
 }
@@ -182,17 +192,10 @@ a img {
 
     display: flex;
     justify-content: space-around;
-    padding-top: 2.5vh;
     align-items: center;
-    padding-bottom: 2.5vh;
+    height: 30vh;
     background-color: #ec6521;
 }
-
-
-
-
-
-
 
 
 
@@ -306,6 +309,5 @@ legend {
 
     border-radius: 1vw;
 }
-
 
 
